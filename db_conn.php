@@ -6,9 +6,9 @@
 // $db_name = "db_ecommerce";
 
 $sname = "remotemysql.com";
-$uname = "USb3Z7cK0J ";
+$uname = "USb3Z7cK0J";
 $password = "Ry2dwTpFfd";
-$db_name = "USb3Z7cK0J ";
+$db_name = "USb3Z7cK0J";
 
 $conn  = mysqli_connect($sname, $uname, $password, $db_name);
 
