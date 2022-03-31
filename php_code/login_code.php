@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
                 try {
                     //Server settings
                     $mail->isSMTP();
-                    $mail->Host = 'smtp.gmail.com';
+                    $mail->Host = 'smtp.sendgrid.net';
                     $mail->SMTPAuth = true;
                     $mail->Username = 'yamada.shoji99@gmail.com';
                     $mail->Password = 'jdm091076581';
